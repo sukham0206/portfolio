@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn opencv.wsgi
+web:gunicorn opencv.wsgi
