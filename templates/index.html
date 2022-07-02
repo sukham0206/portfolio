@@ -1,0 +1,752 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" style="font-family: 'Open Sans', sans-serif">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Alex+Brush&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap"
+    />
+    <link rel="stylesheet" href="/static/fonts/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="stylesheet" href="/static/css/Navbar-Right-Links-Dark.css" />
+    <link rel="stylesheet" href="/static/css/Projects-Grid.css" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+
+  <body style="background: rgb(0, 0, 0); color: var(--bs-light); margin-top: 0">
+    <nav
+      class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark text-uppercase"
+      id="mainNav"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand text-capitalize"
+          href="#page-top"
+          style="
+            font-family: 'Alex Brush', serif;
+            font-size: 31px;
+            font-weight: bold;
+          "
+          >Sukham</a
+        ><button
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link active py-3 px-0 px-lg-3 rounded"
+                href="#home"
+                style="
+                  font-weight: bold;
+                  font-family: Roboto, sans-serif;
+                  font-size: 15px;
+                "
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#about"
+                style="
+                  width: 77.8906px;
+                  min-width: 56px;
+                  padding: 16px;
+                  font-weight: bold;
+                  font-family: Roboto, sans-serif;
+                  font-size: 15px;
+                "
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link active py-3 px-0 px-lg-3 rounded"
+                href="#skills"
+                data-bs-target="#skills"
+                style="
+                  font-weight: bold;
+                  font-family: Roboto, sans-serif;
+                  font-size: 15px;
+                "
+                >SKILLS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#projects"
+                style="
+                  padding: 16px;
+                  font-weight: bold;
+                  font-family: Roboto, sans-serif;
+                  font-size: 15px;
+                "
+                >PROJECTS</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link active py-3 px-0 px-lg-3 rounded"
+                href="#contact"
+                style="
+                  font-weight: bold;
+                  font-family: Roboto, sans-serif;
+                  font-size: 15px;
+                "
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container d-block" id="home" style="margin-top: 75px">
+      <div class="row">
+        <div class="col-md-6" style="min-width: 0px; margin-top: 10px">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            style="
+              font-size: 23px;
+              font-family: 'Open Sans', sans-serif;
+              text-align: left;
+              margin-bottom: 10px;
+              margin-top: 10px;
+              margin-left: 0px;
+            "
+          >
+            <strong><em>HEY THERE!</em></strong>
+          </p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            style="
+              text-align: left;
+              font-size: 38px;
+              color: var(--bs-light);
+              font-family: Roboto, sans-serif;
+              font-weight: bold;
+              margin-bottom: -15px;
+              margin-left: 0px;
+              margin-top: 14px;
+            "
+          >
+            I'm Sukham<br />
+          </p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            style="
+              font-size: 33px;
+              font-family: 'Alex Brush', serif;
+              color: var(--bs-indigo);
+              margin-bottom: 21px;
+              margin-top: 0px;
+            "
+          >
+            <strong
+              ><span style="color: rgb(0, 81, 186)"
+                >A full stack developer</span
+              ></strong
+            ><br />
+          </p>
+          <a
+            href="https://github.com/sukham0206"
+            style="margin-left: 0px; max-height: 0px"
+            target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-8 0 512 512"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              style="
+                margin-top: -51px;
+                width: 25px;
+                height: 25px;
+                color: rgb(255, 255, 255);
+              "
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              ></path></svg></a
+          ><a
+            href="https://www.linkedin.com/in/sukhamjit-singh-chatha-5191b0208/"
+            style="margin-top: -51px; width: 0px; height: 0px"
+            target="_blank"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-32 0 512 512"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              style="
+                margin-top: -51px;
+                width: 25px;
+                height: 25px;
+                margin-right: -29px;
+                margin-left: 6px;
+                color: rgb(255, 255, 255);
+              "
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+              ></path></svg
+          ></a>
+          <p></p>
+          <button
+            class="btn btn-primary"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            type="button"
+            style="
+              margin-top: 33px;
+              margin-left: -3px;
+              margin-right: 6px;
+              width: 80px;
+              background: var(--bs-indigo);
+              text-align: center;
+              font-size: 14px;
+              font-family: Roboto, sans-serif;
+              border-style: none;
+              border-color: rgba(255, 255, 255, 0);
+              margin-bottom: 0px;
+            "
+            onclick = "window.location.href='mailto:sukhmtp@gmail.com'"
+            >
+            <strong>Contact</strong></button
+          ><button
+            class="btn btn-primary"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            type="button"
+            style="
+              margin-top: 33px;
+              width: 80px;
+              background: var(--bs-indigo);
+              text-align: center;
+              font-size: 14px;
+              font-family: Roboto, sans-serif;
+              border-style: none;
+              margin-left: 1px;
+            "
+            onclick="window.open('/static/resume.pdf')"
+          >
+            <strong>Resume</strong>
+          </button>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid d-flex d-xxl-flex justify-content-center align-items-center ms-auto justify-content-xxl-end align-items-xxl-end"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            src="/static/img/ezsn_zsmz_220227-removebg.png"
+            width="450"
+            height="500"
+            style="
+              transform: translate(-46px) scale(1);
+              transform-origin: right;
+              padding-top: 0px;
+              margin-right: -40px;
+              height: 300px;
+              margin-top: 5px;
+              width: 100%;
+              min-width: 0;
+              margin-left: auto !important;
+            "
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            data-aos="fade-up"
+            data-aos-delay="100"
+            src="/static/img/—Pngtree—a%20man%20at%20work_4463549.png"
+            style="width: 290px; height: 250px; max-width: 100%"
+          />
+        </div>
+        <div class="col-md-6">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            style="
+              font-family: 'Open Sans', sans-serif;
+              text-align: left;
+              font-size: 23px;
+              margin-top: 37px;
+            "
+          >
+            <strong><em>ABOUT ME</em></strong>
+          </p>
+          <p data-aos="fade-up" data-aos-delay="100" style="margin-top: -44px">
+            <br /><br /><em
+              ><span
+                style="color: rgb(174, 165, 152); background-color: initial"
+                >Enthusiastic, highly-motivated Computer Science student with
+                proven leadership capabilities, who likes to take initiative and
+                seek out new challenges,&nbsp;passionate about web development
+                and machine learning. Highly-capable leader, having led multiple
+                projects to completion. Proficient in a range of modern
+                technologies including Python, C++ etc.</span
+              ></em
+            ><br /><br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-64 0 512 512"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              style="
+                width: 25px;
+                height: 25px;
+                margin-top: -80px;
+                margin-right: 10px;
+                transform: scale(1.18);
+              "
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
+              ></path></svg
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              style="
+                margin-top: -80px;
+                height: 25px;
+                width: 21px;
+                margin-right: 10px;
+                transform: scale(1.18);
+              "
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"
+              ></path></svg
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 -32 576 576"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              style="
+                width: 25px;
+                height: 25px;
+                margin-top: -80px;
+                margin-right: 10px;
+                transform: scale(1.18);
+              "
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"
+              ></path></svg
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-32 0 512 512"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              style="
+                width: 25px;
+                height: 25px;
+                margin-top: -80px;
+                margin-right: 10px;
+                transform: scale(1.18);
+              "
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+              ></path></svg
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="none"
+              style="
+                width: 25px;
+                height: 25px;
+                margin-top: -80px;
+                transform: scale(1.18);
+                margin-right: 10px;
+              "
+            >
+              <path
+                d="M12.207 16.278C11.1241 17.343 9.63879 18 8 18C4.68629 18 2 15.3137 2 12C2 8.68629 4.68629 6 8 6C9.67492 6 11.1896 6.6863 12.278 7.79303L13.6923 6.37878C12.2418 4.91014 10.2272 4 8 4C3.58172 4 0 7.58172 0 12C0 16.4183 3.58172 20 8 20C10.1911 20 12.1764 19.1192 13.6212 17.6923L12.207 16.278Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M15 9H13V11H11V13H13V15H15V13H17V11H15V9Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M20 9H22V11H24V13H22V15H20V13H18V11H20V9Z"
+                fill="currentColor"
+              ></path></svg
+            ><br /><br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="skills">
+      <div class="row">
+        <div class="col-md-12">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="100"
+            style="
+              font-family: 'Open Sans', sans-serif;
+              font-size: 23px;
+              font-style: italic;
+              margin-bottom: 35px;
+            "
+          >
+            <strong>SKILLS</strong>
+          </p>
+          <p data-aos="fade-up" data-aos-delay="100">HTML</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="
+              margin-top: -15px;
+              margin-bottom: 15px;
+              --bs-primary: #0d6efd;
+              --bs-primary-rgb: 13, 110, 253;
+            "
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 90%"
+            >
+              90%
+            </div>
+          </div>
+          <p data-aos="fade-up" data-aos-delay="100">CSS</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="margin-top: -15px; margin-bottom: 15px"
+          >
+            <div
+              class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 75%"
+            >
+              75%
+            </div>
+          </div>
+          <p data-aos="fade-up" data-aos-delay="100">JavaScript</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="margin-top: -15px; margin-bottom: 15px"
+          >
+            <div
+              class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+              aria-valuenow="45"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 45%"
+            >
+              45%
+            </div>
+          </div>
+          <p data-aos="fade-up" data-aos-delay="100">Python</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="margin-top: -15px; margin-bottom: 15px"
+          >
+            <div
+              class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+              aria-valuenow="65"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 65%"
+            >
+              65%
+            </div>
+          </div>
+          <p data-aos="fade-up" data-aos-delay="100">Django</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="
+              margin-top: -15px;
+              margin-bottom: 15px;
+              filter: brightness(177%) contrast(163%) grayscale(100%)
+                hue-rotate(360deg) saturate(95%) sepia(84%);
+            "
+          >
+            <div
+              class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 60%"
+            >
+              60%
+            </div>
+          </div>
+          <p data-aos="fade-up" data-aos-delay="100">C/C++</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="margin-top: -15px; margin-bottom: 15px"
+          >
+            <div
+              class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 80%"
+            >
+              80%
+            </div>
+          </div>
+          <p data-aos="fade-up" data-aos-delay="100">Git/GitHub</p>
+          <div
+            class="progress"
+            data-aos="fade-right"
+            style="
+              margin-top: -15px;
+              margin-bottom: 15px;
+              filter: brightness(154%) contrast(93%) hue-rotate(278deg)
+                saturate(101%);
+            "
+          >
+            <div
+              class="progress-bar bg-warning progress-bar-striped progress-bar-animated"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 85%"
+            >
+              85%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="projects">
+      <p
+        style="
+          font-size: 23px;
+          font-family: 'Open Sans', sans-serif;
+          height: 33px;
+          margin-top: 15px;
+          margin-bottom: 4px;
+        "
+      >
+        <strong><em>PROJECTS</em></strong
+        ><br />
+      </p>
+    </div>
+    <div class="container py-4 py-xl-5">
+      <div
+        class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3"
+        style="margin-top: -32px; margin-bottom: -23px"
+      >
+        <div class="col">
+          <div>
+            <img
+              class="rounded img-fluid d-block w-100 fit-cover"
+              style="height: 200px"
+              src="/static/img/56384.jpg"
+            />
+            <div class="py-4">
+                <h4 style="color: var(--bs-gray-100);border-style: none;border-color: rgba(255,255,255,0.5);"><a href="https://github.com/sukham0206/facerecognition-attendance" target="_blank" style="text-decoration:none"><span style="color: rgb(255, 255, 255);">Attendance using Face Recognition</span></a></h4>
+              <p>
+                Takes images of people as input dataset and using it, recognizes
+                faces and marks the attendance in an excel file.<br />Tech
+                Stack: Python, OpenCV
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img
+              class="rounded img-fluid d-block w-100 fit-cover"
+              width="229px"
+              height="190px"
+              style="height: 200px"
+              src="/static/img/Screenshot%202022-07-01%20131014.jpg"
+            />
+            <div class="py-4">
+                <h4><a href="https://opencv-converter.herokuapp.com/" target="_blank" style="text-decoration:none"><span style="color: rgb(255, 255, 255);">OpenCV Image Converter</span></a></h4>
+              <p style="margin-top: 0">
+                Converts images to grayscale and also rescales them and output
+                image is sent to the email entered.<br />Tech Stack: HTML, CSS,
+                Python, OpenCV, Django, Email API
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img
+              class="rounded img-fluid d-block w-100 fit-cover"
+              style="height: 200px"
+              src="/static/img/Screenshot%202022-07-01%20130842.jpg"
+            />
+            <div class="py-4">
+                <h4><a href="https://sukhamchatha.herokuapp.com/" style="text-decoration:none" target="_blank"><span style="color: rgb(255, 255, 255);">Portfolio </span></a></h4>
+              <p>
+                My portfolio website<br />Tech Stack: HTML, CSS, Bootstrap,
+                Django&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="contact">
+      <p
+        style="
+          font-size: 23px;
+          font-family: 'Open Sans', sans-serif;
+          font-style: italic;
+          font-weight: bold;
+          margin-bottom: 10px;
+          margin-top: -8px;
+        "
+      >
+        CONTACT ME
+      </p>
+      <p
+        style="
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          text-align: left;
+          margin-bottom: 21px;
+        "
+      >
+        Wanna talk about a project or just say Hi👋<br />
+      </p>
+      <p
+        style="
+          font-style: italic;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 13px;
+          margin-top: -17px;
+          margin-bottom: 13px;
+        "
+      >
+        Email: sukhmtp@gmail.com<br />Phone: +91 6284411564<br /><br />
+      </p>
+      <a
+        href="https://www.instagram.com/sukham02/"
+        style="margin-top: -1px"
+        target="_blank"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="-32 0 512 512"
+          width="1em"
+          height="1em"
+          fill="currentColor"
+          style="
+            transform: scale(1.91);
+            margin-top: -59px;
+            margin-left: 5px;
+            margin-right: -23px;
+            color: rgb(255, 255, 255);
+          "
+        >
+          <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+          ></path></svg></a
+      ><a
+        href="https://twitter.com/sukhmtp"
+        style="margin: 3px 0px 0px; margin-top: 3px; margin-bottom: -4px"
+        target="_blank"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          width="1em"
+          height="1em"
+          fill="currentColor"
+          style="
+            margin-left: 44px;
+            transform: scale(1.76);
+            margin-top: -59px;
+            margin-right: -23px;
+            color: rgb(255, 255, 255);
+          "
+        >
+          <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+          ></path></svg></a
+      ><a
+        href="https://www.facebook.com/sukhamchatha/"
+        style="color: rgb(255, 255, 255)"
+        target="_blank"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="-96 0 512 512"
+          width="1em"
+          height="1em"
+          fill="currentColor"
+          style="
+            margin-left: 36px;
+            transform: scale(1.76);
+            margin-top: -59px;
+            margin-right: -23px;
+          "
+        >
+          <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+          ></path></svg
+      ></a>
+    </div>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  </body>
+</html>
